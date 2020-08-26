@@ -1,0 +1,530 @@
+
+.body{
+    background-color: #f7f7f7;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+}
+
+.header{
+    background-color: #5eab42;
+    padding-top: 59px;
+    padding-bottom: 186px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav{
+    
+    
+    display: -webkit-box;
+    
+    
+    display: -ms-flexbox;
+    
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.nav__block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header__logotype{
+    max-width: 92px;
+    max-height: 66px;
+    margin-right: 25px;
+}
+
+.header__img{
+    width: 100%;
+    height: 100%;
+}
+
+.header__blockText{
+    max-width: 623px;
+    width: 100%;
+    max-height: 66px;
+    height: 100%;
+}
+
+.header__title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+
+.header__text{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn{
+    font-size: 18px;
+    line-height: 0.67;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: #5eab42;
+    padding: 21px 32px;
+}
+
+.header__btn{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+
+.tarifs__wrapper{
+    margin-top: -123px;
+    border-radius: 8px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 42px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 3px 42px 0 rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tarifs__calc{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 63px 0 66px;
+    max-width: 413px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 42px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 3px 42px 0 rgba(0, 0, 0, 0.15);
+}
+
+.calc-info{
+margin-left: 96px;
+}
+
+.calc__title{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 0.66;
+    text-align: left;
+    color: #6a6a6a;
+    position: relative;
+    
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 0.66;
+    text-align: left; 
+    color: #2b2b2b;
+}
+
+.calc__title::before{
+    content: url(../img/Group384.svg);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-color: #5eab42;
+    border-radius: 50%;
+    padding: 10px;
+    top: -14px;
+    left: -75px;
+    text-align: center;
+}
+
+.sum{
+    margin-top: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+}
+
+.sum:first-child{
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.sum__text{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(43, 43, 43, 0.5);
+}
+
+.sum__price{
+    margin-top: 4px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 0.75;
+    text-align: left;
+    color: #2b2b2b;
+    position: relative;
+}
+
+.sum__price::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/Union13.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 16px;
+    left: 0;
+    top: 0;
+
+}
+
+.calc__dtn{
+    font-size: 18px;
+    padding-bottom: 2px;
+    color: #5eab42;
+    border-bottom: 1px dashed #5eab42 ;
+}
+
+.block-tarifs{
+    margin: 0 64px 72px;
+}
+
+.tarifs__title{
+    margin-top: 64px;
+}
+
+.tarifs__text{
+    margin: 9px 0 0px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 5.75;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 32px;
+    max-width: 659px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.06);
+            box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.card__image{
+    max-width: 160px;
+    width: 100%;
+    max-height: 160px;
+    width: 100%;
+    float: left;
+}
+
+.card__img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-information{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    padding-top:8px;
+    width: 100%;
+   
+} 
+
+.card-blockText{
+    padding: 8px 42px 0 32px;
+}
+
+.card-blockData{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card__title{
+    font-size: 24px;
+    text-align: left;
+    color: #484848;
+}
+
+.card-data{
+    font-size: 14px;
+    text-align: left;
+    color: #6a6a6a;
+}
+
+.card-data-mobile{
+    display: none;
+    font-size: 12px;
+    line-height: 2.33;
+    color: #6a6a6a;
+  
+}
+
+.card__text{
+    margin-right: 24px;
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: left;
+    color: #484848;
+
+}
+
+.card__moreText{
+    margin-top: 24px;
+    max-width: 411px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: #484848;
+}
+
+.card-blockPrice{
+     margin-top: 72px; 
+     -webkit-box-align: center; 
+         -ms-flex-align: center; 
+             align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.card__price{
+    font-size: 24px;
+    text-align: center;
+    color: #484848;
+    padding-right: 33px;
+    padding-top: 13px;
+    position: relative;
+}
+
+.card__price::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/Union13.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 16px;
+    left: 0;
+    top: 0;
+}
+
+.card__price::before{
+    content: '';
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%, rgba(255,255,255,1)), color-stop(71%, rgba(94,171,66,0.17457405325411413)));
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 1%, rgba(94,171,66,0.17457405325411413) 71%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(94,171,66,0.17457405325411413) 71%);
+    right: 0;
+    top: 1px;
+}
+
+
+.card__btn{
+    font-size: 16px;
+    border-radius: 0px;
+    border-bottom-right-radius: 8px;
+}
+
+.form{
+  padding-top: 33px;
+  padding-left: 32px;
+  padding-right: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.form__title{
+    font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  color: #484848;
+}
+
+.form__text{
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 1.38;
+    text-align: left;
+    color: #6a6a6a;
+    margin-bottom: 24px;
+}
+
+.input{
+    max-width: 220px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+    color: #adadad;
+    padding: 15px 0 14px 16px;
+    margin-bottom: 16px;
+}
+
+.promo{
+    max-width: 134px;
+    margin-bottom: 16px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+    color: #5eab42;
+    border-bottom:1px dashed #5eab42;
+}
+
+.label{
+    font-size: 13px;
+    line-height: 1.38;
+    text-align: left;
+    color: #6a6a6a;
+    position: relative;
+    padding-left: 32px;
+}
+
+.label__a_decoration{
+    color: #5eab42;
+    border-bottom:1px solid #5eab42;
+}
+
+.label::before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/Union18.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    top:2px;
+    left: 0;
+    background-size: 0%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    
+}
+
+#check{
+    display: none;
+}
+
+#check:checked + .label::before{
+    background-size: 85%;
+}
+
+.footer{
+    background-color: #f7f7f7;
+    padding: 64px 0 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer__logotype{
+    max-width: 200px;
+   margin-bottom: 25px;
+    max-height: 39px;
+    
+}
+
+.footer__img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer__text{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.21;
+    color: #2b2b2b;
+    margin-bottom: 6px;
+}
+
+.footer__text_decoration{
+    color: #6a6a6a;
+    border-bottom: 1px solid #6a6a6a;
+}

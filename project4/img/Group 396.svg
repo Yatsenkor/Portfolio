@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none}.cls-2{stroke:#1f2229;stroke-width:3px}.cls-4,.cls-5{stroke:none}.cls-5{fill:#1f2229}
+        </style>
+    </defs>
+    <g id="Group_396" data-name="Group 396" transform="translate(-635 -996)">
+        <path id="Rectangle_21" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 21" transform="translate(635 996)"/>
+        <g id="Group_368" data-name="Group 368" transform="translate(265.33 51.225)">
+            <path id="Union_7" d="M48.5 84.214v-6.471H15.229v6.471a3.849 3.849 0 0 1-7.7 0v-6.485A8 8 0 0 1 0 69.743V29.6a8 8 0 0 1 8-8h10.208V4.319h-3.551a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h34.416a1 1 0 0 1 1 1v2.318a1 1 0 0 1-1 1H45.52V21.6h10.209a8 8 0 0 1 8 8v40.143a8 8 0 0 1-7.53 7.987v6.485a3.849 3.849 0 0 1-7.7 0zM22.76 21.6h18.208V4.319H22.76z" class="cls-2" data-name="Union 7" transform="translate(385.806 948.766)"/>
+            <g id="Subtraction_2" class="cls-3" data-name="Subtraction 2">
+                <path d="M40.52 30.234H5a5.005 5.005 0 0 1-5-5V5a5.006 5.006 0 0 1 5-5h35.52a5.006 5.006 0 0 1 5 5v20.234a5.006 5.006 0 0 1-5 5zM10.1 8.638a1 1 0 0 0-1 1v2.319a1 1 0 0 0 1 1h25.316a1 1 0 0 0 1-1V9.638a1 1 0 0 0-1-1z" class="cls-4" transform="translate(394.91 987.637)"/>
+                <path d="M40.52 28.234c1.654 0 3-1.346 3-3V5c0-1.654-1.346-3-3-3H5C3.346 2 2 3.346 2 5v20.234c0 1.654 1.346 3 3 3h35.52M10.104 6.638h25.312c1.654 0 3 1.346 3 3v2.32c0 1.654-1.346 3-3 3H10.104c-1.654 0-3-1.346-3-3v-2.32c0-1.654 1.346-3 3-3M40.52 30.234H5c-2.757 0-5-2.243-5-5V5c0-2.757 2.243-5 5-5h35.52c2.757 0 5 2.243 5 5v20.234c0 2.757-2.243 5-5 5zM10.104 8.638c-.551 0-1 .449-1 1v2.32c0 .55.449 1 1 1h25.312c.551 0 1-.45 1-1v-2.32c0-.551-.449-1-1-1H10.104z" class="cls-5" transform="translate(394.91 987.637)"/>
+            </g>
+        </g>
+    </g>
+</svg>

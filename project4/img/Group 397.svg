@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99.058" height="99.058" viewBox="0 0 99.058 99.058">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-4{fill:none}.cls-2,.cls-4{stroke:#1f2229}.cls-2{stroke-width:3px}.cls-3{fill:#1f2229}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_397" data-name="Group 397" transform="translate(-298.063 -995.063)">
+        <path id="Rectangle_20" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 20" transform="translate(299 996)"/>
+        <path id="Union_2" d="M6.663 105.772V86.327A11.661 11.661 0 0 1 0 75.79V11.66a11.66 11.66 0 1 1 23.32 0v64.13a11.66 11.66 0 0 1-6.663 10.537v19.445a5 5 0 0 1-9.994 0z" class="cls-2" data-name="Union 2" transform="rotate(-135 384.498 480.415)"/>
+        <rect id="Rectangle_215" width="2" height="96.567" class="cls-3" data-name="Rectangle 215" rx="1" transform="rotate(-135 380.743 474.336)"/>
+        <g id="Rectangle_218" class="cls-4" data-name="Rectangle 218" transform="rotate(-135 378.771 469.505)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_220" class="cls-4" data-name="Rectangle 220" transform="rotate(-135 381.186 463.675)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_224" class="cls-4" data-name="Rectangle 224" transform="rotate(-135 386.016 452.015)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_222" class="cls-4" data-name="Rectangle 222" transform="rotate(-135 383.601 457.845)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_226" class="cls-4" data-name="Rectangle 226" transform="rotate(-135 388.431 446.185)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_228" class="cls-4" data-name="Rectangle 228" transform="rotate(-135 390.846 440.355)">
+            <rect width="5.83" height="2" class="cls-5" rx="1"/>
+            <rect width="4.83" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_219" class="cls-4" data-name="Rectangle 219" transform="rotate(-135 378.522 465.986)">
+            <rect width="2.915" height="2" class="cls-5" rx="1"/>
+            <rect width="1.915" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_223" class="cls-4" data-name="Rectangle 223" transform="rotate(-135 383.351 454.326)">
+            <rect width="2.915" height="2" class="cls-5" rx="1"/>
+            <rect width="1.915" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_221" class="cls-4" data-name="Rectangle 221" transform="rotate(-135 380.936 460.157)">
+            <rect width="2.915" height="2" class="cls-5" rx="1"/>
+            <rect width="1.915" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_225" class="cls-4" data-name="Rectangle 225" transform="rotate(-135 385.766 448.496)">
+            <rect width="2.915" height="2" class="cls-5" rx="1"/>
+            <rect width="1.915" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="Rectangle_227" class="cls-4" data-name="Rectangle 227" transform="rotate(-135 388.181 442.666)">
+            <rect width="2.915" height="2" class="cls-5" rx="1"/>
+            <rect width="1.915" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+    </g>
+</svg>

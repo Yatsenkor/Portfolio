@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__round-chevron_left-24px" width="24" height="24" viewBox="0 0 24 24">
+    <g id="prefix__Bounding_Boxes">
+        <path id="prefix__Path_134" d="M24 0H0v24h24z" data-name="Path 134" style="fill:none"/>
+    </g>
+    <g id="prefix__Rounded" transform="translate(8.997 6.418)">
+        <path id="prefix__Path_135" d="M8.71 6.71a1 1 0 0 1 1.41 0l4.59 4.59a1 1 0 0 1 0 1.41l-4.59 4.59a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L12.59 12 8.71 8.12a1 1 0 0 1 0-1.41z" data-name="Path 135" transform="translate(-8.417 -6.418)" style="fill:#d0d0d0"/>
+    </g>
+</svg>

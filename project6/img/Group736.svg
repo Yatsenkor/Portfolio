@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32.017" viewBox="0 0 32 32.017">
+    <defs>
+        <style>
+            .cls-1{fill:#3cc3b3}.cls-2{fill:#9a3ea2}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="Group_736" data-name="Group 736" transform="translate(-146 -6754)">
+        <g id="Group_735" data-name="Group 735" transform="translate(146 6756.894)">
+            <g id="Group_733" data-name="Group 733" transform="translate(12.073)">
+                <path id="Subtraction_12" d="M7.3 14.545A7.273 7.273 0 1 1 12.457 2.13 7.273 7.273 0 0 1 7.3 14.545zm0-9.486a2.213 2.213 0 1 0 2.218 2.214A2.22 2.22 0 0 0 7.3 5.059z" class="cls-1" data-name="Subtraction 12" transform="translate(1.269 1.265)"/>
+                <path id="Rectangle_692" d="M0 0h1.904v1.897H0z" class="cls-1" data-name="Rectangle 692" transform="translate(7.615)"/>
+                <path id="Rectangle_695" d="M0 0h1.897v1.904H0z" class="cls-1" data-name="Rectangle 695" transform="rotate(90 4.772 12.361)"/>
+                <path id="Rectangle_693" d="M0 0h1.904v1.897H0z" class="cls-1" data-name="Rectangle 693" transform="translate(7.615 15.177)"/>
+                <path id="Rectangle_694" d="M0 0h1.897v1.904H0z" class="cls-1" data-name="Rectangle 694" transform="rotate(90 -2.843 4.747)"/>
+                <path id="Path_2666" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2666" transform="rotate(60 4.77 15.155)"/>
+                <path id="Path_2667" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2667" transform="rotate(150 4.766 9.56)"/>
+                <path id="Path_2668" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2668" transform="rotate(60 -8.397 7.527)"/>
+                <path id="Path_2669" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2669" transform="rotate(150 2.72 1.968)"/>
+                <path id="Path_2670" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2670" transform="rotate(120 4.771 10.744)"/>
+                <path id="Path_2671" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2671" transform="rotate(-150 4.752 7.518)"/>
+                <path id="Path_2672" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2672" transform="rotate(120 .367 3.143)"/>
+                <path id="Path_2673" d="M0 0h1.9v1.9H0z" class="cls-1" data-name="Path 2673" transform="rotate(-150 6.798 -.074)"/>
+            </g>
+            <g id="Group_734" data-name="Group 734" transform="rotate(-45 23.213 9.615)">
+                <path id="Union_8" d="M6.239 14v-1.086a5.914 5.914 0 0 1-2.852-1.186l-.766.766-1.1-1.1.767-.767A5.918 5.918 0 0 1 1.1 7.774H.014V6.219H1.1A5.875 5.875 0 0 1 2.273 3.37L1.5 2.6l1.1-1.1.769.77A5.875 5.875 0 0 1 6.218 1.1V.011h1.554V1.1a5.919 5.919 0 0 1 2.855 1.187l.767-.767 1.1 1.1-.767.767a5.914 5.914 0 0 1 1.187 2.853H14V7.8h-1.086a5.877 5.877 0 0 1-1.176 2.849l.769.77-1.1 1.1-.769-.769a5.878 5.878 0 0 1-2.85 1.176V14zM5.193 7A1.814 1.814 0 1 0 7 5.193 1.809 1.809 0 0 0 5.193 7z" class="cls-2" data-name="Union 8"/>
+            </g>
+        </g>
+        <path id="Rectangle_708" d="M0 0h32v31.89H0z" class="cls-3" data-name="Rectangle 708" transform="translate(146 6754)"/>
+    </g>
+</svg>

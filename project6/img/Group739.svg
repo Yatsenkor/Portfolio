@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="31.89" viewBox="0 0 32 31.89">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3cc3b3}.cls-3{fill:#9a3ea2}
+        </style>
+    </defs>
+    <g id="Group_739" data-name="Group 739" transform="translate(-146 -6754)">
+        <path id="Rectangle_708" d="M0 0h32v31.89H0z" class="cls-1" data-name="Rectangle 708" transform="translate(146 6754)"/>
+        <path id="Union_9" d="M-1331-598v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-11.833l-4.167 3.013z" class="cls-2" data-name="Union 9" transform="translate(1480 7364)"/>
+        <path id="Union_10" d="M2 14.013a2 2 0 0 1-2-2V0l4.168 3.013H16a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2z" class="cls-3" data-name="Union 10" transform="rotate(180 87.5 3392.006)"/>
+    </g>
+</svg>

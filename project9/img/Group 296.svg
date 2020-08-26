@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .prefix__cls-3{stroke-linecap:round}.prefix__cls-3,.prefix__cls-6{fill:none}.prefix__cls-3{stroke:#58af32;stroke-width:3px}.prefix__cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_296" data-name="Group 296" transform="translate(-635 -645)">
+        <g id="prefix__Ellipse_11" data-name="Ellipse 11" transform="translate(635 645)" style="stroke:#d8d8d8;fill:#fff">
+            <circle cx="48" cy="48" r="48" class="prefix__cls-5"/>
+            <circle cx="48" cy="48" r="47.5" class="prefix__cls-6"/>
+        </g>
+        <g id="prefix__Ellipse_12" data-name="Ellipse 12" transform="translate(640 650)" style="stroke-linejoin:round;stroke-dasharray:4 4;stroke-linecap:round;stroke:#d8d8d8;fill:#fff">
+            <circle cx="43" cy="43" r="43" class="prefix__cls-5"/>
+            <circle cx="43" cy="43" r="42.5" class="prefix__cls-6"/>
+        </g>
+        <path id="prefix__Line_19" d="M32 0L0 3" class="prefix__cls-3" data-name="Line 19" transform="translate(683.5 690.5)"/>
+        <path id="prefix__Line_20" d="M0 0L22 28" class="prefix__cls-3" data-name="Line 20" transform="translate(661.5 665.5)"/>
+        <g id="prefix__Ellipse_13" data-name="Ellipse 13" transform="translate(679 689)" style="stroke:#58af32;stroke-width:3px;fill:#fff">
+            <circle cx="4.5" cy="4.5" r="4.5" class="prefix__cls-5"/>
+            <circle cx="4.5" cy="4.5" r="3" class="prefix__cls-6"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,709 @@
+@font-face {
+    font-family:'Tele2DisplaySansReg'; 
+    src: url(../fonts/Tele2TextSans-Regular-shortWeb_0.ttf);
+}
+
+@font-face {
+    font-family:'Tele2DisplaySansBold'; 
+    src: url(../fonts/Tele2TextSans-Bold-shortWeb_0.ttf);
+}
+
+@font-face {
+    font-family:'Tele2DisplayStandart'; 
+    src: url(../fonts/StandardStencil-Bold_media.otf); 
+}
+
+@font-face {
+    font-family:'Tele2DisplaySerifReg';
+    src: url(../fonts/Tele2DisplaySerif-Regular-shortWeb_0.ttf);
+}
+
+@font-face {
+    font-family:'Tele2DisplaySerifBold';
+    src: url(../fonts/Tele2DisplaySerif-Bold-shortWeb_0.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+input{
+    border:none;
+}
+
+body {
+    background-color:white;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 49px 0 60px;
+}
+
+.main{
+    margin: 0 auto;
+    background-image: url('../img/Group446@2x.png');
+    background-size: cover;
+    padding-bottom: 98px;
+}
+
+
+.header__nav{
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
+  
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.header__nav-logoText{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex; 
+}
+
+.header__logo{
+    max-width: 121px;
+    width: 100%;
+    max-height: 46px;
+    height: 100%;
+}
+
+.header__logo_img_mobile{
+    max-width: 68px;
+    width: 100%;
+    max-height: 26px;
+    height: 100%;  
+    display: none;  
+}
+
+.header__logo_img{
+    display: block;
+    max-width: 121px;
+    width: 100%;
+    max-height: 46px;
+    height: 100%;
+}
+
+.header__nav-text{
+    max-width: 483px;
+    width: 100%;
+    font-family: 'Tele2DisplaySerifReg';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.33;
+    text-align: left;
+    color: #2c2c2c;
+    margin-left: 33px;
+}
+
+
+.header__lk{
+    max-width: 220px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%; 
+}
+
+.header__lk_img{
+    max-width: 220px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%; 
+    display: block;
+}
+
+.header__lk_img_mobile{
+    display: none;
+    max-width: 116px;
+    width: 100%;
+    max-height: 30px;
+    height: 100%;
+}
+
+.main__block{
+    max-width: 471px;
+    width: 100%;
+    max-height: 457px;
+    height: 100%;
+    margin: 55px 0 60px;
+}
+
+.main__text-wrapper{
+    width: 471px;
+    height: 457px;
+    background: #1f2229;
+/* Rotate */
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.main__text-price-wrapper{
+    width: 150px;
+    height: 150px;
+    background-color: #de83ff;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 30px;
+}
+
+
+.main_text{
+    max-width: 343px;
+    width: 100%;
+    font-family:'Tele2DisplayStandart';
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.17;
+    text-align: left;
+    color: #ffffff;
+    padding: 30px 0 60px 30px;
+}
+
+
+.main_text-blok{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.main_text-price{
+    font-family:'Tele2DisplayStandart';
+    font-size: 50px;
+  font-weight: bold;
+  line-height: 1.18;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main__text-price_small{
+    font-family:'Tele2DisplayStandart';
+    font-size: 20px;
+  font-weight: bold;
+  line-height: 1.18;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main_text-Logo{
+    max-width: 96px;
+    width: 100%;
+    max-height: 36px;
+    height: 100%;
+    margin-right: 31px;
+    margin-top: 110px;
+
+}
+
+.main_str{
+    display: none;
+    max-width: 20px;
+    width: 100%;
+    max-height: 38px;
+    height: 100%;
+    margin-right: 24px;
+    margin-bottom: 28px;
+
+}
+
+.main__btn{
+    font-family: 'Tele2DisplaySansReg';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.44;
+    text-align: center;
+    color: #0e0f07;
+    border-radius: 45px;
+    border: solid 2px #1f2229;
+    padding: 18px 45px 19px;
+}
+
+.need{
+    margin-top: 72px;
+    margin-bottom: 140px;
+}
+
+.main__title{
+
+    font-family:'Tele2DisplaySerifBold';
+    font-size: 38px;
+  line-height: 1.11;
+  text-align: left;
+  color: #1f2229;
+}
+
+.need__title_small{
+    font-family:'Tele2DisplaySansReg';
+    font-size: 16px;
+  line-height: 1.44;
+  text-align: left;
+  color: #8f9399;
+  margin-top: 8px;
+}
+
+.need__card-group{
+    margin-top: 72px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 296px 200px;
+    grid-template-rows: 296px 200px;
+    -ms-grid-columns: 336px 336px 252px;
+    grid-template-columns: 336px 336px 252px;
+}
+
+.need__card-group > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.need__card-group > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+}
+
+.need__card-group > *:nth-child(3){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+.need__card-group > *:nth-child(4){
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
+
+.need__card-group > *:nth-child(5){
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+}
+
+.need__card-group > *:nth-child(6){
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+}
+
+
+.card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 252px;
+    width: 100%;
+    margin-right: 84px;
+    margin-bottom: 64px;
+}
+
+.card-image{
+    margin-bottom: 24px;
+    max-width: 96px;
+    width: 100%;
+    max-height: 96px;
+    height: 100%;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card_text-title{
+    font-family:'Tele2DisplaySansBold';
+    font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #2c2c2c;
+  padding-bottom: 8px;
+}
+
+.card-text{
+    font-family:'Tele2DisplaySansReg';
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+    color: #2c2c2c;
+    }
+
+.main__btn_black{
+    color: #ffffff;
+    background-color: black;
+    
+   
+}
+
+.need__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.sertificat{
+    padding:64px 0;
+}
+
+.sertificat__ul{
+    margin-left: 60px;
+    max-width: 1056px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.sertificat__li{
+    font-family:'Tele2DisplaySansReg';
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: left;
+    color: #2c2c2c;
+    margin-top: 15px;
+    position: relative;
+}
+
+.sertificat__li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #1f2229;
+    border-radius: 50%;
+    left: -24px;
+    top: 5px;
+    position: absolute;
+    margin-left: 4px;
+}
+
+.why{
+    padding: 140px 0;
+}
+
+.why__main__title{
+    margin-bottom: 39px;
+}
+
+.why__card-group{
+    max-width: 924px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card:nth-child(3){
+    margin-right: 0;
+}
+
+.card:nth-child(4){
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.card:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.why__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.tarif{
+    background-color: #f7f7fa;
+    padding-top: 96px;
+}
+
+.tarif_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarif__head-info{
+    display: flex;
+    align-items: center;
+}
+
+.tarif__head-info-mobile{
+    display: none;
+}
+
+.tarif__head-price{
+    font-family:'Tele2DisplaySansBold';
+    font-size: 38px;
+    line-height: 1.11;
+    text-align: left;
+    color: #1f2229;
+    margin-right: 35px;
+}
+
+.main__btn_small{
+    padding: 7px 20px 10px;
+}
+
+.why__title_small{
+font-family:'Tele2DisplaySansReg';
+font-size: 16px;
+line-height: 1.44;
+text-align: left;
+color: #8f9399;
+margin-top: 16px;
+}
+
+.form{
+ max-width: 444px;
+    width: 100%;
+    
+}
+
+.main__title_small{
+    font-size: 28px;
+    margin-top: 32px;
+}
+
+.form-information{
+  margin-top: 40px;
+   max-width: 444px;
+    width: 100%;
+    border-bottom: 2px solid #626469;
+}
+
+.form-promo{
+    max-width: 130px;
+    width: 100%;
+    margin-top: 40px; 
+    border-bottom: 2px dotted #8f9399;
+}
+
+.input{ 
+    text-decoration: none;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    padding-bottom: 16px;
+    background-color: #f7f7fa;
+    
+}
+
+.input-promo{
+    text-decoration: none;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+   
+}
+
+.form__btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tarif__img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -525px;
+   
+}
+
+.tarif-image{
+    max-width: 605px;
+    max-height: 614px;
+    width: 100%;
+    height: 100%;
+}
+
+.tarif-image-mobile{
+    display: none;
+}
+
+.main__btn_yellow{
+    background-color: #ffda57;
+    border: solid 2px #ffda57;
+}
+
+.consent{
+    margin-top: 40px;
+    display: flex;
+}
+
+.consent__text{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.consent__text::before{
+    content: url('../img/Group384.svg');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    border:1px solid #1f2229 ;
+    border-radius: 10%;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked+label::before{
+    background-color: #1f2229;
+}
+.consent__text_no-decoration{
+    font-family:'Tele2DisplaySansReg' ;
+    font-size: 16px;
+    line-height: 1.44;
+    text-align: left;
+    color: #1f2229;
+    margin-left: 20px;
+}
+
+.consent__text_decoration{
+    color: #1f2229;
+    border-bottom:1px solid #1f2229;
+}
+
+.doc{
+    padding-top: 140px;
+    padding-bottom: 121px;
+}
+
+.doc-main__title{
+    margin-bottom: 3px;
+}
+
+.document-group{
+    margin-top: 45px;
+   display: grid;
+   grid-template-rows: 46px 88px;
+    grid-template-columns: 579px 429px;
+
+}
+
+.document{
+    
+    display: flex;
+    max-width: 428px;
+    width: 100%;
+    align-items: center;
+}
+
+.document:last-child{
+    align-items: flex-end;
+}
+
+.document_image{
+    width: 36px;
+    height: 42px;
+    margin-right: 45px;
+}
+
+.document-img{
+    height: 100%;
+    width: 100%;
+    width: 36px;
+    height: 42px;
+}
+
+.document-text{
+    font-family:'Tele2DisplaySansReg' ;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f2229;
+}
+
+.footer{
+    padding: 72px 0 44px;
+    background-color: #1f2229;
+}
+
+.footer__logo{
+    max-width: 142px;
+    width: 100%;
+    max-height: 36px;
+    height: 100%;
+    
+}
+
+.footer__logo_img{
+    max-width: 142px;
+    width: 100%;
+    max-height: 36px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content__text{
+    max-width: 464px;
+    width: 100%;
+    font-family:'Tele2DisplaySansReg' ;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-content__text:first-child{
+    margin-bottom: 8px;
+}
+
+.footer-content-image{
+    margin: 8px;
+}
+
+.footer-content_img{
+    max-width: 96px;
+    width: 100%;
+    max-height: 36px;
+    height: 100%;
+}

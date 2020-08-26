@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-2{fill:#1f2229}.cls-3{fill:#fff;stroke-linejoin:round;stroke-width:3px;stroke:#1f2229}.cls-4{stroke:#1f2229;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Group_399" data-name="Group 399" transform="translate(-299 -1292)">
+        <path id="Rectangle_25" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 25" transform="translate(299 1292)"/>
+        <g id="Group_372" data-name="Group 372" transform="translate(-142.921 348.766)">
+            <g id="Group_373" data-name="Group 373" transform="rotate(-14.98 3888.526 -1248.568)">
+                <rect id="Rectangle_263" width="67.852" height="3" class="cls-2" data-name="Rectangle 263" rx="1.5"/>
+            </g>
+            <path id="Union_9" d="M3.484 83.706a3.484 3.484 0 1 1 0-6.968h13.925V4a4 4 0 0 1 4-4h.035a4 4 0 0 1 4 4v72.739h13.925a3.484 3.484 0 1 1 0 6.968z" class="cls-3" data-name="Union 9" transform="translate(469.096 950.077)"/>
+            <path id="Line_11" d="M0 0v34.818" class="cls-4" data-name="Line 11" transform="translate(460.391 965.477)"/>
+            <path id="Line_15" d="M0 0v34.818" class="cls-4" data-name="Line 15" transform="translate(519.449 949.543)"/>
+            <path id="Line_12" d="M0 34.818L13.391 0" class="cls-4" data-name="Line 12" transform="translate(447 965.477)"/>
+            <path id="Line_16" d="M0 34.818L13.391 0" class="cls-4" data-name="Line 16" transform="translate(506.058 949.543)"/>
+            <path id="Line_13" d="M13.391 34.818L0 0" class="cls-4" data-name="Line 13" transform="translate(460.391 965.477)"/>
+            <path id="Line_14" d="M13.391 34.818L0 0" class="cls-4" data-name="Line 14" transform="translate(519.449 949.543)"/>
+            <path id="Path_1119" d="M30.765 12A15.382 15.382 0 1 1 0 12z" class="cls-4" data-name="Path 1119" transform="translate(445.026 987.642)"/>
+            <path id="Path_1120" d="M30.765 12A15.382 15.382 0 1 1 0 12z" class="cls-4" data-name="Path 1120" transform="translate(504.084 971.709)"/>
+        </g>
+    </g>
+</svg>

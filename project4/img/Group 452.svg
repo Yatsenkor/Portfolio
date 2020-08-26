@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1{fill:#1f2229}.cls-2,.cls-5{fill:none}.cls-2{stroke:#fff;stroke-width:3px}.cls-3{fill:#fff}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_452" data-name="Group 452" transform="translate(-971 -2237)">
+        <g id="Group_451" data-name="Group 451">
+            <circle id="Ellipse_68" cx="48" cy="48" r="48" class="cls-1" data-name="Ellipse 68" transform="translate(971 2237)"/>
+            <g id="Ellipse_72" class="cls-2" data-name="Ellipse 72" transform="translate(989 2255)">
+                <circle cx="30" cy="30" r="30" class="cls-4"/>
+                <circle cx="30" cy="30" r="28.5" class="cls-5"/>
+            </g>
+            <rect id="Rectangle_289" width="2" height="4" class="cls-3" data-name="Rectangle 289" rx="1" transform="translate(1018 2261)"/>
+            <rect id="Rectangle_293" width="2" height="21" class="cls-3" data-name="Rectangle 293" rx="1" transform="rotate(45 -2221.183 2381.542)"/>
+            <rect id="Rectangle_290" width="2" height="4" class="cls-3" data-name="Rectangle 290" rx="1" transform="translate(1018 2304)"/>
+            <rect id="Rectangle_294" width="2" height="11" class="cls-3" data-name="Rectangle 294" rx="1" transform="rotate(135 39.044 1359.41)"/>
+            <circle id="Ellipse_73" cx="3" cy="3" r="3" class="cls-3" data-name="Ellipse 73" transform="translate(1016 2282)"/>
+            <rect id="Rectangle_295" width="2" height="4" class="cls-3" data-name="Rectangle 295" rx="1" transform="rotate(90 -642.5 1641.5)"/>
+            <rect id="Rectangle_296" width="2" height="4" class="cls-3" data-name="Rectangle 296" rx="1" transform="rotate(90 -621 1663)"/>
+        </g>
+    </g>
+</svg>

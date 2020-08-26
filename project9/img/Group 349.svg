@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="72" viewBox="0 0 176 72">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-3{fill:#333;font-size:19px;font-family:PFDinTextPro-Thin,PF DinText Pro;font-weight:200}.cls-3{fill:#a5a5a5;font-size:12px}
+        </style>
+    </defs>
+    <g id="Group_349" data-name="Group 349" transform="translate(-962 -4084)">
+        <path id="Rectangle_371" d="M0 0h176v72H0z" class="cls-1" data-name="Rectangle 371" transform="translate(962 4084)"/>
+        <text id="Персонал_Актив_Плюс" class="cls-2" data-name="Персонал Актив Плюс" transform="translate(962 4104)">
+            <tspan x="3.089" y="14">Персонал Актив Плюс</tspan>
+        </text>
+        <text id="ИП_Скворцов" class="cls-3" data-name="ИП Скворцов" transform="translate(962 4128)">
+            <tspan x="55.648" y="9">ИП Скворцов</tspan>
+        </text>
+    </g>
+</svg>

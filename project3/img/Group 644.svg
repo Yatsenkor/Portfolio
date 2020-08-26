@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-4{fill:none}.cls-2{opacity:.051}.cls-3,.cls-4{stroke:#fff}.cls-3{stroke-width:7px}.cls-4{stroke-linecap:square;stroke-linejoin:round;stroke-width:9px}
+        </style>
+    </defs>
+    <g id="Group_644" data-name="Group 644" transform="translate(-236 -2855)">
+        <path id="Rectangle_31" d="M0 0h160v160H0z" class="cls-1" data-name="Rectangle 31" transform="translate(236 2855)"/>
+        <g id="Group_643" data-name="Group 643">
+            <path id="Intersection_6" d="M-3034.138 172l-30.358-53.849 33.614 22.325 33.165-28.732 5.151-51.172 40.566 69.417V148a24 24 0 0 1-24 24z" class="cls-2" data-name="Intersection 6" transform="translate(3348 2843)"/>
+            <g id="Group_642" data-name="Group 642" transform="translate(5.869 7)">
+                <path id="Path_824" d="M3381.011 2878.819l35.191-16.565 35.792 16.565s1.175 40.871-3.535 48.731-32.257 26.395-32.257 26.395-29.55-17.548-33.011-26.395-2.18-48.731-2.18-48.731z" class="cls-3" data-name="Path 824" transform="translate(-3105.416 20.17)"/>
+                <path id="Path_808" d="M3520.168 3686.9l11.146 8.065 16.529-25.507" class="cls-4" data-name="Path 808" transform="translate(-3223.014 -755.912)"/>
+            </g>
+        </g>
+    </g>
+</svg>

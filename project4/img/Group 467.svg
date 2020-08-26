@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.625" height="37.43" viewBox="0 0 19.625 37.43">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff}.cls-1{clip-rule:evenodd}.cls-3{clip-path:url(#clip-path)}.cls-4{clip-path:url(#clip-path-2)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Path_1187" d="M.457 16.118l.051.044.044.052-.1-.1zM.556-20.8l-.044.051-.051.049zM19.662-2.731l.025.04-.1-.12a1.024 1.024 0 0 1 0 1.444L1.909 16.124a1.019 1.019 0 0 1-1.309.115l-.094-.078-.074-.091a1.025 1.025 0 0 1 .119-1.3L17.606-2.109.555-19.341a1.044 1.044 0 0 1-.118-1.315l.074-.092.094-.077a1.007 1.007 0 0 1 1.164.008l.142.12L19.539-2.881a1.016 1.016 0 0 1 .119.145l.013.014z" class="cls-1" data-name="Path 1187" transform="translate(-.254 21.006)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_1186" d="M0 17.283h20.577V-22H0z" class="cls-2" data-name="Path 1186" transform="translate(0 22)"/>
+        </clipPath>
+    </defs>
+    <g id="Group_467" class="cls-3" data-name="Group 467">
+        <g id="Group_466" class="cls-4" data-name="Group 466" transform="translate(-.476 -1.86)">
+            <path id="Path_1185" d="M-4.746-26.006h38.332v56.137H-4.746z" class="cls-2" data-name="Path 1185" transform="translate(-4.132 18.512)"/>
+        </g>
+    </g>
+</svg>

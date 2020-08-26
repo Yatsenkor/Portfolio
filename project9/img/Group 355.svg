@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="120" viewBox="0 0 72 120">
+    <defs>
+        <style>
+            .cls-1{fill:#f8b6b6}.cls-2{fill:#fff}.cls-3,.cls-5{fill:none}.cls-3{stroke:#f8b6b6}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_355" data-name="Group 355" transform="translate(-336 -2430)">
+        <rect id="Rectangle_385" width="72" height="120" class="cls-1" data-name="Rectangle 385" rx="8" transform="translate(336 2430)"/>
+        <rect id="Rectangle_386" width="64" height="96" class="cls-2" data-name="Rectangle 386" rx="4" transform="translate(340 2440)"/>
+        <rect id="Rectangle_388" width="17" height="2" class="cls-2" data-name="Rectangle 388" rx="1" transform="translate(364 2434)"/>
+        <rect id="Rectangle_389" width="2" height="2" class="cls-2" data-name="Rectangle 389" rx="1" transform="translate(361 2434)"/>
+        <rect id="Rectangle_387" width="20" height="6" class="cls-2" data-name="Rectangle 387" rx="3" transform="translate(362 2540)"/>
+        <g id="Rectangle_396" class="cls-3" data-name="Rectangle 396" transform="translate(344 2494)">
+            <rect width="35" height="15" class="cls-4" rx="2"/>
+            <rect width="34" height="14" x=".5" y=".5" class="cls-5" rx="1.5"/>
+        </g>
+        <g id="Rectangle_397" class="cls-3" data-name="Rectangle 397" transform="translate(344 2482)">
+            <rect width="35" height="8" class="cls-4" rx="2"/>
+            <rect width="34" height="7" x=".5" y=".5" class="cls-5" rx="1.5"/>
+        </g>
+        <rect id="Rectangle_398" width="35" height="15" class="cls-1" data-name="Rectangle 398" rx="2" transform="translate(365 2512)"/>
+    </g>
+</svg>

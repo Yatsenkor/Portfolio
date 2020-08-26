@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_76" data-name="Group 76" transform="translate(-1092 -6417)">
+        <rect id="prefix__Rectangle_214" width="48" height="48" data-name="Rectangle 214" rx="8" transform="translate(1092 6417)" style="fill:#58af32;opacity:.501"/>
+        <g id="prefix__round-chevron_left-24px" transform="rotate(90 -2646.5 3778.5)">
+            <g id="prefix__Bounding_Boxes">
+                <path id="prefix__Path_101" d="M0 0h32v32H0z" data-name="Path 101" style="fill:none"/>
+            </g>
+            <g id="prefix__Rounded" transform="translate(6.223 8.557)">
+                <path id="prefix__Path_102" d="M16.808 6.807a1.328 1.328 0 0 0-1.88 0l-6.12 6.12a1.328 1.328 0 0 0 0 1.88l6.12 6.12a1.328 1.328 0 0 0 1.88 0 1.328 1.328 0 0 0 0-1.88l-5.173-5.187 5.173-5.173a1.34 1.34 0 0 0 0-1.88z" class="prefix__cls-3" data-name="Path 102" transform="translate(-8.418 -6.418)"/>
+            </g>
+            <g id="prefix__Rounded-2" data-name="Rounded" transform="translate(15.223 8.557)">
+                <path id="prefix__Path_102-2" d="M16.808 6.807a1.328 1.328 0 0 0-1.88 0l-6.12 6.12a1.328 1.328 0 0 0 0 1.88l6.12 6.12a1.328 1.328 0 0 0 1.88 0 1.328 1.328 0 0 0 0-1.88l-5.173-5.187 5.173-5.173a1.34 1.34 0 0 0 0-1.88z" class="prefix__cls-3" data-name="Path 102" transform="translate(-8.418 -6.418)"/>
+            </g>
+        </g>
+    </g>
+</svg>

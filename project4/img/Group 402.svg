@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-4,.cls-5{fill:none}.cls-2,.cls-4{stroke:#1f2229;stroke-width:3px}.cls-3,.cls-4{stroke-linecap:round;stroke-linejoin:round}.cls-6,.cls-7{stroke:none}.cls-7{fill:#1f2229}
+        </style>
+    </defs>
+    <g id="Group_402" data-name="Group 402" transform="translate(-971 -996)">
+        <path id="Rectangle_22" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 22" transform="translate(971 996)"/>
+        <g id="Group_377" data-name="Group 377" transform="translate(40.445 53)">
+            <g id="Group_375" data-name="Group 375" transform="translate(952.048 1012.572)">
+                <g id="Ellipse_51" class="cls-2" data-name="Ellipse 51" transform="translate(-.493 .428)">
+                    <ellipse cx="10.5" cy="10.5" class="cls-6" rx="10.5" ry="10.5"/>
+                    <ellipse cx="10.5" cy="10.5" class="cls-1" rx="9" ry="9"/>
+                </g>
+            </g>
+            <g id="Group_398" data-name="Group 398" transform="translate(999.048 1012.572)">
+                <g id="Ellipse_51-2" class="cls-2" data-name="Ellipse 51" transform="translate(-.493 .428)">
+                    <ellipse cx="10.5" cy="10.5" class="cls-6" rx="10.5" ry="10.5"/>
+                    <ellipse cx="10.5" cy="10.5" class="cls-1" rx="9" ry="9"/>
+                </g>
+            </g>
+            <g id="Path_1122" class="cls-3" data-name="Path 1122">
+                <path d="M67.506 23A33.753 33.753 0 0 1 0 23z" class="cls-6" transform="translate(952.049 960.221)"/>
+                <path d="M3.143 26a30.655 30.655 0 0 0 8.864 18.746 30.654 30.654 0 0 0 21.746 9.007A30.655 30.655 0 0 0 55.5 44.746 30.654 30.654 0 0 0 64.363 26H3.143M0 23h67.506c0 18.641-15.112 33.753-33.753 33.753S0 41.641 0 23z" class="cls-7" transform="translate(952.049 960.221)"/>
+            </g>
+            <path id="Path_1137" d="M20.159 17.628C19.388-2.2.7.683.7.683" class="cls-4" data-name="Path 1137" transform="translate(933.382 965.472)"/>
+            <g id="Path_1123" class="cls-5" data-name="Path 1123">
+                <path d="M33.753 0v33.753A33.753 33.753 0 0 1 0 0z" class="cls-6" transform="rotate(180 509.777 490.877)"/>
+                <path d="M3.143 3a30.654 30.654 0 0 0 8.864 18.746 30.654 30.654 0 0 0 18.746 8.864V3H3.143M0 0h33.753v33.753C15.112 33.753 0 18.641 0 0z" class="cls-7" transform="rotate(180 509.777 490.877)"/>
+            </g>
+        </g>
+    </g>
+</svg>

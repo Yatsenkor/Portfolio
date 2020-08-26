@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.theme.default.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-connect">
+                <div class="header-connect-img">
+                    <img class="header-connect-img__img" src="./img/_2.svg" alt="img">
+                    <img src="./img/Symbol 4 – 4.svg" alt="img" class="header-connect-img-mobile__img">
+                </div>
+                <div class="header-connect-block">
+                    <div class="header-connect-block-phone">
+                        <a href="#" class="header-connect-block__link">Позвонить</a>
+                        <a href="" class="header-connect-block-mobile__link">
+                            <img src="./img/Group 770.svg" alt="img">
+                        </a>
+                    </div>
+                    <div class="header-connect-block-lk">
+                        <a href="#" class="header-connect-block__link">Личный кабинет</a>
+                        <a href="" class="header-connect-block-mobile__link">
+                            <img src="./img/Group 769.svg" alt="img">
+                        </a>
+                    </div>
+                    <div class="header-connect-block-as">
+                        <a href="" class="header-connect-block-mobile__link">
+                            <img src="./img/Group 768.svg" alt="img">
+                        </a>
+                        <a href="#" class="header-connect-block__link header-connect-block__link_white">Активировать сертификат</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="navbar">
+                <li  class=" navbar__li dropdown" >
+                    <a href="#info" onclick="myFunction()" class="dropbtn navbar__link">О Телемед</a>
+                    <div id="myDropdown" class="dropdown-content navbar-info-company">
+                    <a href="#info2" class="navbar__link navbar-info-company__link"> Преимущества</a>
+                    <a href="#info3" class="navbar__link navbar-info-company__link"> Достижения</a>
+                    </div>
+                </li>
+                    <script>
+                        /* When the user clicks on the button, 
+                        toggle between hiding and showing the dropdown content */
+                        function myFunction() {
+                            document.getElementById("myDropdown").classList.toggle("show");
+                        }
+                        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                            if (!event.target.matches('.dropbtn')) {
+                        
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                                }
+                            }
+                            }
+                        }
+                        </script>
+                
+                <li class="navbar__li">
+                    <a href="#serves" class="navbar__link">Услуги</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="#doctors" class="navbar__link">Наши врачи</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="#blog" class="navbar__link">Блог</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="#reviews" class="navbar__link">Отзывы</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="#partnes" class="navbar__link">Партнерам</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="#contacts" class="navbar__link">Контакты</a>
+                </li>
+            </ul>
+                
+        </div>
+    </nav>
+    <section class="main">
+        <div class="owl-carousel main-block owl-theme" id="main">
+            <div class="main-block-information__wrapper main-block-information__wrapper1">
+                <div class="main-block-information ">
+                    <div class="container">
+                        <h2 class="main-block-information__title">
+                            Не спрашивайте интернет – спросите доктора
+                        </h2>
+                        <p class="main-block-information__text">
+                            24/7  по телефону, в приложении, в чат-боте
+                        </p>
+                    </div>    
+                </div>    
+            </div>
+            <div class="main-block-information__wrapper main-block-information__wrapper2">
+                <div class="main-block-information ">
+                    <div class="container">
+                        <h2 class="main-block-information__title">
+                            24 часа 7 дней в неделю 365 дней в году 
+                        </h2>
+                        <p class="main-block-information__text">
+                            Без праздников, перерывов на обед или предварительной записи
+                        </p>
+                    </div>
+                </div>   
+            </div>
+            <div class="main-block-information__wrapper main-block-information__wrapper3">
+                <div class="main-block-information ">
+                    <div class="container">
+                        <h2 class="main-block-information__title">
+                            В любое время. В любой точке мира
+                        </h2>
+                        <p class="main-block-information__text">
+                            Позаботьтесь о своем здоровье и здоровье своих близких
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title always-title">
+                Новости и статьи
+            </h2>
+        </div>
+            <div class=" news-block owl-carousel owl-theme" id="news">
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/34@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            День здоровья для сотрудников ТЕЛЕ2 в центральном офисе
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/52173615_347370679447303_7669347831441784832_o@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            ТелеМед принял участие в форуме по цифровизации здравоохранения, телемеди...
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/Group 839@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            Личный врач для бабушек и дедушек в смартфонах в любом салоне ТЕЛЕ2
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/pic_98c3447c8117db197f43f87070a60fe1@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            ТелеМед знает все о правах потребителей и качестве обслуживания
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/WhatsApp Image 2018-11-23 at 14.07.06@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            Мы знаем, что безопасность создают люди, а не обстоятельства
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="./img/46da8600f247b80ae1e408fad1081e53@2x.jpg" alt="img" class="news-img__img">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-text__text">
+                            «Личный врач» в любом салоне ТЕЛЕ2
+                        </p>
+                        <div class="news-text-link">
+                            <a href="#" class="nesw-text-link__link">Подробнее</a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="information" id="info">
+        <div class="container">
+            <h2 class="always-title information__title">
+                О ТелеМед
+            </h2>
+            <div class="information-text">
+                <p class="information-text__text ">
+                    Первая и самая крупная в России система
+                    <a href="#" class="information-text__link"> мгновенной /</a>
+                    <a href="#" class="information-text__link">круглосуточной / </a>
+                    <a href="#" class="information-text__link">дистанционной</a> 
+                    медицинской поддержки
+                </p>
+            </div>
+                <div class="information-title-small information-title-small2" id="info2">
+                    <h3 class="information__title_small">
+                        Наши преимущества
+                    </h3>
+                </div>
+        
+                <ul class="information-properties">
+                    <li class="information-properties-text">
+                        <h4 class="information-properties__title">
+                            24 часа, 7 дней в неделю, 365 дней в году
+                        </h4>
+                        <p class="information-properties__text">
+                            Без праздников, перерывов на обед или предварительной записи
+                        </p>
+                    </li>
+                    <li class="information-properties-text">
+                        <h4 class="information-properties__title">
+                            Без ожидания и голосового меню
+                        </h4>
+                        <p class="information-properties__text">
+                            Доктор ответит не более, чем за 15 секунд
+                        </p>
+                    </li>
+                    <li class="information-properties-text">
+                        <h4 class="information-properties__title">
+                            Все под рукой
+                        </h4>
+                        <p class="information-properties__text">
+                            Вся история ваших обращений и аудиозаписи разговоров хранятся в личном кабинете
+                        </p>
+                    </li>
+                    <li class="information-properties-text">
+                        <h4 class="information-properties__title">
+                            Задавайте вопросы в любом удобном формате
+                        </h4>
+                        <p class="information-properties__text">
+                            Видео или аудио звонки / Горячая линия / Чат в личном кабинете или мессенджере
+                        </p>
+                    </li>
+                    <li class="information-properties-text">
+                        <h4 class="information-properties__title">
+                            Команда
+                        </h4>
+                        <p class="information-properties__text">
+                            Врачи и медицинские юристы с опытом работы от 9 лет
+                        </p>
+                    </li>
+                </ul>
+                <div class="information-title-small information-title-small3" id="info3">
+                    <h3 class="information__title_small">
+                        Наши достижения
+                    </h3>
+                </div>
+                    <ul class="information-advanteges">
+                        <li class="information-advanteges-text">
+                            <p class="information-advanteges-text__text">
+                                В 2016 году профессионализм специалистов «Телемеда» и качество сервиса были отмечены премией Spear's Russia Health Management Awards 2016 в номинации «Лучший продукт в Health — Менеджменте»
+                                <a href="#" class="information-text__link information-text__link_border information-advanteges-text__text">awards2016.pbwm.ru</a> 
+                            </p>
+                        </li>
+                        <li class="information-advanteges-text">
+                            <p class="information-advanteges-text__text">
+                                Совместное исследование ТелеМед и НАФИ стало самой обсуждаемой и цитируемой темой 2017 года по вопросу ТелеМедицины в России
+                            </p>
+                        </li>
+                        <li class="information-advanteges-text">
+                            <p class="information-advanteges-text__text">
+                                Генеральный партнер Smart HR
+                            </p>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section class="service">
+        <div class="container">
+            <h2 class="always-title service__title">
+                Услуги
+            </h2>
+            <h4 class="sevice__title_small title__small">
+                Если у вас
+            </h4>
+            <div class="service-card-group">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 690.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Заболел ребенок
+                        </h4>
+                        <p class="service-card-text__text">
+                            Симптомы некоторых заболеваний похожи на обычную простуду, главное диагностировать их правильно
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 692.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Болит голова, живот,
+                            мучает спина
+                        </h4>
+                        <p class="service-card-text__text">
+                            Различные боли могут являться нарушением работы внутренних органов
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 697.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Вам отказывают
+                            в медицинской помощи
+                        </h4>
+                        <p class="service-card-text__text">
+                            Вас не направляют на обследования, отказывают в госпитализации
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 693.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Запутались в лекарствах
+                        </h4>
+                        <p class="service-card-text__text">
+                            Вы не можете разобраться в рецептах, выписанных вам врачем, Вас волнуют побочные эффекты
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 695.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Хотите позаботиться
+                            о родителях
+                        </h4>
+                        <p class="service-card-text__text">
+                            Волнуетесь о здоровье родителей и хотите полностью их обезопасить
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="./img/Group 698.svg" alt="img" class="service-card-img__img">
+                    </div>
+                    <div class="service-card-text">
+                        <h4 class="service-card-texet__title">
+                            Другая проблема
+                        </h4>
+                        <p class="service-card-text__text">
+                            Редкий не диагностируемый случай, реабилитация после долгой болезни
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how">
+        <div class="container">
+            <h2 class="always-title how__title">
+                Как это работает
+            </h2>
+            <div class="how-content">
+                <div class="how-content-image">
+                    <img src="./img/Group766.svg" alt="img" class="how-content-image__img">
+                    <img src="./img/Group 779.svg" alt="img" class="how-content-image-mobile__img">
+                </div>
+                <ul class="how-content-block">
+                    <li class="how-content-block-text how-content-block-text1">
+                        <h4 class="how-content-block-text__title">
+                            Четкий план
+                        </h4>
+                        <p class="how-content-block-text__text">
+                            Определим, что беспокоит и составим четкий план действий
+                        </p>
+                    </li>
+                    <li class="how-content-block-text how-content-block-text2">
+                        <h4 class="how-content-block-text__title">
+                            Анализы
+                        </h4>
+                        <p class="how-content-block-text__text">
+                            Составим дорожную карту анализов и определим необходимость очного приема
+                        </p>
+                    </li>
+                    <li class="how-content-block-text how-content-block-text3">
+                        <h4 class="how-content-block-text__title">
+                            Нужен врач?
+                        </h4>
+                        <p class="how-content-block-text__text">
+                            Подберем доктора и запишем на прием
+                        </p>
+                    </li>
+                    <li class="how-content-block-text how-content-block-text4">
+                        <h4 class="how-content-block-text__title">
+                            Экспертиза заключения
+                        </h4>
+                        <p class="how-content-block-text__text">
+                            Проведем экспертизу заключения и объясним все рекомендации
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="doctors">
+        <div class="container">
+            <h2 class="always-title doctors__title" id="doctors">
+                Наши врачи
+            </h2>
+            <div class="doctors-text">
+                <p class="doctors-text__text">
+                    В команду попадает только 1 из 17 специалистов. Важны не только знания, но и искреннее желание помогать людям и бороться за их здоровье.  Лучшие специалисты, со средней оценкой консультации выше 4.8
+                </p>
+            </div>
+        </div>
+        <div class="owl-carousel doctors-card-group owl-theme" id="doc">
+            <div class="doctor-card">
+                <div class="doctor-card-img">
+                    <img src="./img/34@2x.jpg" class="doctor-card-img__img" alt="img">
+                </div>
+                <div class="doctor-card-block-text">
+                    <h5 class="doctor-card-text__title_small">терапевт</h5>
+                    <h3 class="doctor-card-text__title">Маслов Евгений Олегович</h3>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-card-img">
+                    <img src="./img/34@2x.jpg" class="doctor-card-img__img" alt="img">
+                </div>
+                <div class="doctor-card-block-text">
+                    <h5 class="doctor-card-text__title_small">терапевт</h5>
+                    <h3 class="doctor-card-text__title">Маслов Евгений Олегович</h3>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-card-img">
+                    <img src="./img/34@2x.jpg" class="doctor-card-img__img" alt="img">
+                </div>
+                <div class="doctor-card-block-text">
+                    <h5 class="doctor-card-text__title_small">терапевт</h5>
+                    <h3 class="doctor-card-text__title">Маслов Евгений Олегович</h3>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-card-img">
+                    <img src="./img/34@2x.jpg" class="doctor-card-img__img" alt="img">
+                </div>
+                <div class="doctor-card-block-text">
+                    <h5 class="doctor-card-text__title_small">терапевт</h5>
+                    <h3 class="doctor-card-text__title">Маслов Евгений Олегович</h3>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-card-img">
+                    <img src="./img/34@2x.jpg" class="doctor-card-img__img" alt="img">
+                </div>
+                <div class="doctor-card-block-text">
+                    <h5 class="doctor-card-text__title_small">терапевт</h5>
+                    <h3 class="doctor-card-text__title">Маслов Евгений Олегович</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog" >
+        <div class="container">
+            <h2 class="always-title blog__title"id="blog" >
+                Блог
+            </h2>
+            <div class="blog-content">
+                <div class="blog-block-text">
+                    <div class="blog-block-text-pr">
+                        <h4 class="blog-block-text-pr__title blog-block-text__title">
+                            PR на службе ТелеМед
+                        </h4>
+                        <p class="blog-block-text-pr__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                    </div>
+                    <div class="blog-bkock-text-news">
+                        <h4 class="blog-block-text-news__title blog-block-text__title">
+                            Новое в блоге
+                        </h4>
+                        <div class="blog-block-text-news-group">
+                            <div class="blog-block-text-news-group__card">
+                                <div class="blog-block-text-news-group-link">
+                                    <a href="#" class="blog-block-text-news-group__link">
+                                        Заголовок новости
+                                    </a>
+ 
+                                </div>
+                                <div class="blog-block-text-news-group-card-text">
+                                    <span class="blog-block-text-news-group__data">
+                                    10.02.2018
+                                </span>
+                                <span class="blog-block-text-news-group__text">
+                                    Статьи
+                                </span> 
+                                </div>
+                            </div>
+                            <div class="blog-block-text-news-group__card">
+                                <div class="blog-block-text-news-group-link">
+                                    <a href="#" class="blog-block-text-news-group__link">
+                                    Заголовок новости
+                                </a>
+                                </div>
+                                
+                                <div class="blog-block-text-news-group-card-text">
+                                    <span class="blog-block-text-news-group__data">
+                                        10.02.2018
+                                    </span>
+                                    <span class="blog-block-text-news-group__text">
+                                        Статьи
+                                    </span>
+                                </div> 
+                            </div>
+                            <div class="blog-block-text-news-group__card">
+                                <div class="blog-block-text-news-group-link">
+                                    <a href="#" class="blog-block-text-news-group__link">
+                                    Заголовок новости
+                                    </a>
+                                </div>
+                                
+                                <div class="blog-block-text-news-group-card-text">
+                                    <span class="blog-block-text-news-group__data">
+                                    10.02.2018
+                                </span>
+                                <span class="blog-block-text-news-group__text">
+                                    Статьи
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-block-avtor">
+                    <div class="blog-block-avtor-text">  
+                        <p class="blog-block-avtor-text__text">
+                            "Наша задача в том, чтобы вы могли заниматься любимым делом, а все вопросы защиты здоровья и прав вас и ваших близких мы возьмём на себя"
+                        </p>
+                        <h3 class="blog-block-avtor-text__title">
+                            Руководитель компании "ТелеМед"
+                        </h3>
+                        <div class="blog-block-avtor-image">
+                            <img src="./img/Image 5@2x.png" alt="img" class="blog-block-avtor-image__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="always-title reviews__title"id="reviews" >
+                Отзывы
+            </h2>
+        </div>
+            <div class="reviews-card-group owl-carousel owl-theme" id="rev">
+                <div class="reviews-card">
+                    <div class="reviews-card-text">
+                        <p class="reviews-card-text__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                        <div class="reviews-card-estimate">
+                            <div class="reviews-card-estimate-stars">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2474.svg" alt="img" class="reviews-card-estimate-stars_white">
+                               
+                            </div>
+                            <span class="reviews-card-estimate-avtor">
+                                Олег, 47 лет
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card-text">
+                        <p class="reviews-card-text__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                        <div class="reviews-card-estimate">
+                            <div class="reviews-card-estimate-stars">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2474.svg" alt="img" class="reviews-card-estimate-stars_white">
+                         
+
+                            </div>
+                            <span class="reviews-card-estimate-avtor">
+                                Олег, 47 лет
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card-text">
+                        <p class="reviews-card-text__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                        <div class="reviews-card-estimate">
+                            <div class="reviews-card-estimate-stars">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2474.svg" alt="img" class="reviews-card-estimate-stars_white">
+                             
+
+                            </div>
+                            <span class="reviews-card-estimate-avtor">
+                                Олег, 47 лет
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card-text">
+                        <p class="reviews-card-text__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                        <div class="reviews-card-estimate">
+                            <div class="reviews-card-estimate-stars">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2474.svg" alt="img" class="reviews-card-estimate-stars_white">
+                               
+
+                            </div>
+                            <span class="reviews-card-estimate-avtor">
+                                Олег, 47 лет
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card-text">
+                        <p class="reviews-card-text__text">
+                            Клиент с дочерью пришли в МФЦ. В помещении было душно, много людей. В какой-то момент Клиенту стало плохо, и он упал в обморок. Подоспевшие на помощь сотрудники МФЦ пытались оказать медицинскую помощь, вместо того Клиента. 
+                        </p>
+                        <div class="reviews-card-estimate">
+                            <div class="reviews-card-estimate-stars">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2471.svg" alt="img" class="reviews-card-estimate-stars_yellow">
+                                <img src="./img/Path 2474.svg" alt="img" class="reviews-card-estimate-stars_white">
+                             
+
+                            </div>
+                            <span class="reviews-card-estimate-avtor">
+                                Олег, 47 лет
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="partnes">
+        <div class="container">
+            <h2 class="always-title partnes__title"id="partnes" >
+                Партнерам
+            </h2>
+            <h4 class="partnes__title_small title__small">
+                Наши партнеры
+            </h4>
+            <div class="partnes-group">
+                <div class="partnes-img">
+                    <img src="./img/Image 68@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 68@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 67@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 67@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 66@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 66@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 68@2x.png" alt="img" class="partnes-img__img">
+                </div>
+                <div class="partnes-img">
+                    <img src="./img/Image 68@2x.png" alt="img" class="partnes-img__img">
+                </div>
+            </div>
+            <div class="partnes-cooperation">
+                <h4 class="partnes-cooperation__title_small title__small">
+                    Приглашаем к сотрудничеству
+                </h4>
+                <div class="partnes-cooperation-group">
+                    <div class="partnes-cooperation-group_top">
+                        <a href="#" class="partnes-cooperation-group-partner">Банки</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Страховые компании</a>
+                        <a href="#" class="partnes-cooperation-group-partner">МФО</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Ритейл</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Маркетплейсы</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Клиники</a>
+                     </div> 
+                     <div class="partnes-cooperation-group_bottom">  
+                        <a href="#" class="partnes-cooperation-group-partner">Авиакомпании</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Туристические компании</a>
+                        <a href="#" class="partnes-cooperation-group-partner">Кредитных и страховых брокеров</a>
+                    </div>    
+                </div>
+            </div>
+            <div class="partnes-advanteges">
+                <h4 class="partnes-advanteges__title_small title__small">
+                    Наши преимущества
+                </h4>
+                <div class="partnes-advanteges-group">
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title1">
+                            Интеграция в продукт
+                        </h5>
+                        <ui class="partnes-advanteges-card-property">
+                            <li class="partnes-advanteges-card-property__text">
+                                Включение в текущий тариф полиса
+
+
+                            </li>
+                            <li class="partnes-advanteges-card-property__text">
+                                Up-sale к страхованию ВЗР
+                            </li>
+                            <li class="partnes-advanteges-card-property__text">
+                                Инновационный продукт для расширения возможностей ДМС
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title2">
+                            Поддержка
+                        </h5>
+                        <ui class="partnes-advanteges-card-property">
+                            <li class="partnes-advanteges-card-property__text">
+                                Наши технические специалисты помогут ответить на ваши вопросы и решить технические проблемы и помогут создать продающий лендинг
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title3">
+                            Корпоративный университет
+                        </h5>
+                        <ui class="partnes-advanteges-card-property">
+                            <li class="partnes-advanteges-card-property__text">
+                                Создание скриптов под продукт. Возможность проведения обучающих вебинаров и выездных тренингов
+                            </li>
+
+                        </ui>
+                    </div>
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title4">
+                            Готовая сейл-программа
+                        </h5>
+                        <ui class="partnes-advanteges-card-property">
+                            <li class="partnes-advanteges-card-property__text">
+                                Прямые продажи из нашей системы или интеграция в систему партнера средствами API
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title5">
+                            Услуги call-центра
+                        </h5>
+                        <ui class="partnes-advanteges-card-property ">
+                            <li class="partnes-advanteges-card-property__text">
+                                Аутсорсинговый call-центр для организации приёма и обработки всех видов входящей и исходящей коммуникации для ваших клиентов
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="partnes-advanteges-card">
+                        <h5 class="partnes-advanteges-card__title partnes-advanteges-card__title6">
+                            Круглосуточная горячая линия
+                        </h5>
+                        <ui class="partnes-advanteges-card-property">
+                            <li class="partnes-advanteges-card-property__text">
+                                Легко масштабируемый колл-центр с круглосуточной связью со специалистами
+                            </li>
+                        </ui>
+                    </div>
+                </div>
+            </div>
+            <div class="partnes-invite">
+                <h4 class="partnes-invite__title_small title__small">
+                    Приглашаем к сотрудничеству
+                </h4>
+                <div class="partnes-invite-text">
+                    <p class="partnes-invite-text__text">
+                        Оставьте заявку на подключение к партнерской системе "ТелеМед". Мы поможем монетизировать медицинский трафик максимально выгодно.
+                    </p>
+                 </div>    
+                    <form action="" class="partnes-invite-form">
+                       <span class="partnes-invite-form__text">ВВЕДИТЕ EMAIL</span>
+                       <div class="partnes-invite-form-block-enter">
+                            <input type="text" class="partnes-invite-form-emaill">
+                            <a  href="#" class="partnes-invite-form__btn">ОТПРАВИТЬ</a>
+                        </div>
+                    </form>
+               
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-partnes">
+                    <div class="footer-content-title">
+                        <h4 class="footer-content-title__title">
+                            Партнерам
+                        </h4>
+                    </div>
+                    <a href="#" class="footer-content-partnes__link">Наши партнеры</a>
+                    <a href="#" class="footer-content-partnes__link">Кто может стать партнером</a>
+                    <a href="#" class="footer-content-partnes__link">Преимущества ТелеМед</a>
+                    <a href="#" class="footer-content-partnes__link">Стать партнером</a>
+                </div>
+                <div class="footer-content-social">
+                    <div class="footer-content-social-block">
+                        <div class="footer-content-title">
+                            <h4 class="footer-content-title__title">
+                                Социальные сети и БОТЫ
+                            </h4>
+                        </div>    
+                        <div class="footer-content-social-block-img">
+                            <div class="footer-content-social-img">
+                                <img src="./img/iconmonstr-facebook-1.svg" alt="img" class="footer-content-social-img__img">
+                            </div>
+                            <div class="footer-content-social-img">
+                                <img src="./img/social-facebook-messenger.svg" alt="img" class="footer-content-social-img__img">
+                            </div>
+                            <div class="footer-content-social-img">
+                                <img src="./img/Group 54.svg" alt="img" class="footer-content-social-img__img">
+                            </div>
+                            <div class="footer-content-social-img">
+                                <img src="./img/telegram-1.svg" alt="img" class="footer-content-social-img__img">
+                            </div>
+                        </div>
+                    </div>
+                   <div class="footer-content-social-other-block">
+                        <div class="footer-content-title footer-content-title-other">
+                            <h4 class="footer-content-title__title">
+                                Приложения
+                            </h4>
+                        </div>
+                        <div class="footer-content-social-link">
+                            <a href="#" class="footer-content-social__link">AppStore</a>
+                            <a href="#" class="footer-content-social__link">Google Play</a>
+                        </div>   
+                    </div> 
+                </div>
+                <div class="footer-content-info">
+                   <div class="footer-content-info-text">
+                       <p class="footer-content-info-text__text">
+                        Услуги оказывает ООО «ТЕЛЕМЕД»
+                        ИНН 7709465136 ОГРН 1157746726598 г. Москва, Колпачный пер., д.6, стр.5
+                       </p>
+                       <div class="footer-content-info-link">
+                             <a href="#" class="footer-content-info__link">Опционный договор</a>
+                        </div>
+                       <div class="footer-content-info-link">
+                        <a href="#" class="footer-content-info__link">Памятка</a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+  <script src="./libs/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="./libs/OwlCarousel2/owl.carousel.min.js"></script>  
+  <script src="./js/script.js"></script>  
+</body>
+</html>

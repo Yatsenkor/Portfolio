@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{opacity:.051}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_632" data-name="Group 632" transform="translate(-236 -1839)">
+        <path id="Rectangle_73" d="M0 0h160v160H0z" class="cls-1" data-name="Rectangle 73" transform="translate(236 1839)"/>
+        <path id="Intersection_1" d="M-3045.186 172l-36.561-65.362 31.237 22.216 65.138-73.9 33.372 57.71V148a24 24 0 0 1-24 24z" class="cls-2" data-name="Intersection 1" transform="translate(3348 1827)"/>
+        <g id="Group_631" data-name="Group 631" transform="rotate(-7 458.33 1969.686)">
+            <path id="Rectangle_68" d="M0 0h44.752v6.842H0z" class="cls-3" data-name="Rectangle 68" transform="rotate(-135 553.827 908.073)"/>
+            <path id="Rectangle_69" d="M0 0h98.752v6.842H0z" class="cls-3" data-name="Rectangle 69" transform="rotate(-45 2486.578 606.625)"/>
+        </g>
+    </g>
+</svg>

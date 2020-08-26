@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3cc3b3}.cls-3{fill:#b47eb9;opacity:.5}.cls-4{fill:#fff;opacity:.799}.cls-5{fill:#9a3ea2}
+        </style>
+    </defs>
+    <g id="Group_692" data-name="Group 692" transform="translate(-570 -2050)">
+        <g id="Group_691" data-name="Group 691" transform="translate(570 2050)">
+            <path id="Rectangle_605" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 605"/>
+        </g>
+        <path id="Union_2" d="M6.355 41.268a3.432 3.432 0 0 1-.544.142c-2.522.442-5.063-2-5.676-5.464s.934-6.623 3.455-7.066a3.481 3.481 0 0 1 1.274.015A119.953 119.953 0 0 1 4.7 22.5a22.623 22.623 0 0 1 45.245 0c0 1.821-.036 4.006-.165 6.411 2.424.548 3.892 3.648 3.292 7.033-.544 3.067-2.6 5.337-4.819 5.505-2.366 11.565-7.948 22.891-20.93 22.891C14.271 64.343 8.7 52.9 6.355 41.268z" class="cls-2" data-name="Union 2" transform="translate(591.669 2066.292)"/>
+        <ellipse id="Ellipse_106" cx="7.886" cy="7.2" class="cls-3" data-name="Ellipse 106" rx="7.886" ry="7.2" transform="translate(623.486 2071.257)"/>
+        <circle id="Ellipse_107" cx="13.029" cy="13.029" r="13.029" class="cls-4" data-name="Ellipse 107" transform="translate(618 2065.771)"/>
+        <circle id="Ellipse_105" cx="3.429" cy="3.429" r="3.429" class="cls-5" data-name="Ellipse 105" transform="translate(628.286 2074.686)"/>
+    </g>
+</svg>

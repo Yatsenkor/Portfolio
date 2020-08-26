@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3cc3b3}.cls-3{fill:#fff}.cls-4{fill:#9a3ea2}
+        </style>
+    </defs>
+    <g id="Group_698" data-name="Group 698" transform="translate(-929 -2429)">
+        <path id="Rectangle_605" d="M0 0h96v96H0z" class="cls-1" data-name="Rectangle 605" transform="translate(929 2429)"/>
+        <g id="Group_700" data-name="Group 700" transform="translate(944.086 2444.086)">
+            <circle id="Ellipse_101" cx="32.914" cy="32.914" r="32.914" class="cls-2" data-name="Ellipse 101"/>
+            <g id="Group_701" data-name="Group 701" transform="translate(10.971 11.177)">
+                <path id="Union_5" d="M20.115 42.995a5 5 0 0 1-5-5v-8.362H5a5 5 0 0 1-5-5v-5.489a5 5 0 0 1 5-5h10.116V5a5 5 0 0 1 5-5h3.927a5 5 0 0 1 5 5v9.143h10.114a5 5 0 0 1 5 5v5.489a5 5 0 0 1-5 5H29.042V38a5 5 0 0 1-5 5z" class="cls-3" data-name="Union 5"/>
+                <path id="Union_4" d="M17.079 36.022a2 2 0 0 1-2-2V20.944H2a2 2 0 0 1-2-2v-1.865a2 2 0 0 1 2-2h13.08V2a2 2 0 0 1 2-2h1.865a2 2 0 0 1 2 2v13.08h13.078a2 2 0 0 1 2 2v1.865a2 2 0 0 1-2 2H20.944v13.078a2 2 0 0 1-2 2z" class="cls-4" data-name="Union 4" transform="translate(4.067 3.486)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="292" viewBox="0 0 232 292">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#eaeaea}.cls-3{fill:#9a3ea2}.cls-4{filter:url(#Rectangle_724)}
+        </style>
+        <filter id="Rectangle_724" width="232" height="292" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur result="blur" stdDeviation="12"/>
+            <feFlood flood-opacity=".082"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_766" data-name="Group 766" transform="translate(-250 -2982)">
+        <g class="cls-4" transform="translate(250 2982)">
+            <rect id="Rectangle_724-2" width="160" height="220" class="cls-1" data-name="Rectangle 724" rx="12" transform="translate(36 36)"/>
+        </g>
+        <rect id="Rectangle_725" width="110" height="20" class="cls-2" data-name="Rectangle 725" rx="10" transform="translate(313 3066)"/>
+        <rect id="Rectangle_726" width="12" height="12" class="cls-3" data-name="Rectangle 726" rx="6" transform="translate(321 3116)"/>
+        <rect id="Rectangle_729" width="12" height="12" class="cls-3" data-name="Rectangle 729" rx="6" transform="translate(321 3144)"/>
+        <rect id="Rectangle_731" width="12" height="12" class="cls-3" data-name="Rectangle 731" rx="6" transform="translate(321 3172)"/>
+        <rect id="Rectangle_727" width="72" height="12" class="cls-2" data-name="Rectangle 727" rx="6" transform="translate(341 3116)"/>
+        <rect id="Rectangle_728" width="72" height="12" class="cls-2" data-name="Rectangle 728" rx="6" transform="translate(341 3144)"/>
+        <rect id="Rectangle_730" width="72" height="12" class="cls-2" data-name="Rectangle 730" rx="6" transform="translate(341 3172)"/>
+    </g>
+</svg>

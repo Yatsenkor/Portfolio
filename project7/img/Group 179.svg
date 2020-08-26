@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <g id="prefix__Group_179" data-name="Group 179" transform="translate(-265 -351)">
+        <g id="prefix__Rectangle_165" data-name="Rectangle 165" transform="translate(265 351)" style="stroke:#c4c4c4;fill:#fff">
+            <rect width="56" height="56" rx="28" style="stroke:none"/>
+            <rect width="55" height="55" x=".5" y=".5" rx="27.5" style="fill:none"/>
+        </g>
+        <path id="prefix__Subtraction_30" d="M-13243 31.958h-5v-2.642l-.5-.289a11.287 11.287 0 0 1-4.5-4.527l-.279-.539h-2.721v-5h2.099l.2-.739a9.531 9.531 0 0 1 2.216-3.962l.742-.818-.886-.659-2.917-2.172a9.079 9.079 0 0 1 4.574-1.138 13.838 13.838 0 0 1 4.707.878l.286.11.3-.073a15.806 15.806 0 0 1 2.344-.371l-3.285 16.393 6.684-8.616 1.826 5.147 5.533-9.7a9.489 9.489 0 0 1 3.576 7.226 9.806 9.806 0 0 1-4.564 7.984l-.433.3v3.215h-5V30.717l-1.118.13a16.208 16.208 0 0 1-1.887.11c-.289 0-.605-.009-.941-.027l-1.058-.06v1.088z" data-name="Subtraction 30" transform="translate(13535 358.044)" style="stroke:#58af32;stroke-width:2px;fill:#fff"/>
+        <path id="prefix__Path_158" d="M13549.453 366.932a6.53 6.53 0 0 1 3.4.285c2.319.64 2.705 1.6 2.705 1.6l-3.268 5.379-1.526-3.7-2.984 3.7z" data-name="Path 158" transform="translate(-13253.882)" style="fill:gray"/>
+    </g>
+</svg>

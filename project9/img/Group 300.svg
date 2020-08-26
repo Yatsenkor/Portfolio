@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none}.cls-1{stroke:#fa0000;stroke-width:2px}.cls-1,.cls-2{stroke-linecap:round;stroke-linejoin:round}.cls-4,.cls-5{stroke:none}.cls-5{fill:#fa0000}
+        </style>
+    </defs>
+    <g id="Group_300" data-name="Group 300" transform="translate(-1079 -68)">
+        <g id="Group_10" data-name="Group 10" transform="translate(-41.675 -23)">
+            <g id="Ellipse_4" class="cls-1" data-name="Ellipse 4" transform="translate(1129.926 91)">
+                <ellipse cx="7.111" cy="7.111" class="cls-4" rx="7.111" ry="7.111"/>
+                <ellipse cx="7.111" cy="7.111" class="cls-3" rx="6.111" ry="6.111"/>
+            </g>
+            <g id="Path_78" class="cls-2" data-name="Path 78">
+                <path d="M13.037 0c7.2 0 13.037 5.253 13.037 11.733S0 18.213 0 11.733 5.837 0 13.037 0z" class="cls-4" transform="translate(1124 106.407)"/>
+                <path d="M13.037 2C6.951 2 2 6.366 2 11.733c0 .342.72 1.089 2.703 1.746 2.136.708 5.174 1.114 8.334 1.114 3.161 0 6.199-.406 8.335-1.114 1.983-.657 2.703-1.404 2.703-1.746C24.075 6.366 19.123 2 13.037 2m0-2c7.2 0 13.038 5.253 13.038 11.733 0 3.24-6.519 4.86-13.038 4.86C6.52 16.593 0 14.973 0 11.733 0 5.253 5.837 0 13.037 0z" class="cls-5" transform="translate(1124 106.407)"/>
+            </g>
+        </g>
+        <path id="Rectangle_50" d="M0 0h32v32H0z" class="cls-3" data-name="Rectangle 50" transform="translate(1079 68)"/>
+    </g>
+</svg>
